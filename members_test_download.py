@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # Show title and description
 st.set_page_config(page_title="Document Translation", page_icon="📖", layout="wide")
-st.title('''Luke's AI Doc. 파일 번역 프로그램''')
+st.title('''Luke's AI Doc. 파일 번역 프로그램 : 업로드 - 다운로드 버전''')
 st.subheader('※ 배포금지. 개인용 유료 API key 사용 (해외시장 공통셀 전용)')    
 st.text('''Instruction - txt 형식의 불량 증상 파일을 업로드하면 한국어로 번역된 txt 파일을 다운로드할 수 있습니다.''')    
 st.markdown('---')
